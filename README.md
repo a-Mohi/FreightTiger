@@ -78,11 +78,3 @@ I checked the results in three ways:
 
 The labels in `eval.py` were written from the supplied notes, so this check confirms that the implementation follows those examples. It does not prove that the chosen thresholds are the only reasonable thresholds.
 
-## Limitations
-
-- The seven-day matching window does not cover a long-running event beyond its first applicable weeks.
-- Keyword-based note checks can miss differently worded explanations.
-- The size of a rise mentioned in a note is not compared with the observed increase.
-- Weekly values are based on only three to five shipments, and some route types have just one peer.
-- A sustained increase without a supporting note produces repeated unexplained flags and should be reviewed manually.
-- The plain-English question interface and generated explanations are not implemented.

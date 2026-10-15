@@ -11,7 +11,7 @@ python eval.py
 python check_repeat.py
 ```
 
-`main.py` writes `outputs/output.csv`. The first run downloads the approximately 90 MB `all-MiniLM-L6-v2` embedding model. No API key is required.
+`main.py` writes `outputs/output.csv`. The first run downloads the approximately 90 MB `all-MiniLM-L6-v2` embedding model.
 
 ## Project files
 
